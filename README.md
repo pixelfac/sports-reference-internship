@@ -7,6 +7,7 @@ My `generate_H2H_WL_table` function has 3 parts:
 - Initialize local variables
 - Read file data into local object
 - Process file data iteratively, storing in local variable
+
 and then finally, I returned the completed adjacency matrix as output.
 
 That last part is the most complex part of the function, so let me elaborate more on what I'm doing. The first `for loop` iterates through the record lists of each team (`w_team`), initializing that team's sub-dictionary and setting the self-record case (BRO vs BRO) to `'--'`. 
