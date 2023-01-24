@@ -14,4 +14,4 @@ and then, finally, I returned the completed adjacency matrix as output.
 
 That last part is the most complex part of the function, so let me elaborate more on what I'm doing. The first `for loop` iterates through the record lists of each team (`w_team`), initializing that team's sub-dictionary and setting the self-record case (BRO vs BRO) to `'--'`. 
 
-The interior `for loop` iterates through every team (`l_team`) that the winning team (`w_team`) has a record with and sets the value of that pairing to the number of times `w_team` has beat `l_team`. EX: `adj_matrix[BRO][BSN] = 10` means that the first time, `BRO` has beaten the second team `BSN` 10 times.
+The interior `for loop` iterates through every team (`l_team`) that the winning team (`w_team`) has a record with and sets the value of that pairing to the number of times `w_team` has beat `l_team`. EX: `adj_matrix[BRO][BSN] = 10` means that the first team, `BRO` has beaten the second team `BSN` 10 times.
