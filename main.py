@@ -20,10 +20,5 @@ def generate_H2H_WL_table(filepath):
 
     return adj_matrix
 
-def print_H2H_WL_table(table):
-    pass
-
 if __name__ == "__main__":
     table = generate_H2H_WL_table('./test_data.json')
-
-    print_H2H_WL_table(table)
