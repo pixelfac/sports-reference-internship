@@ -2,7 +2,7 @@
 ## Plan
 Because I was going to represent the data as an almost-full table, the data structure I chose to use was an **Adjacency Matrix**. This is because it is very intuitive to access data inside the data structure (one only needs to pass in the x and y parameters of the table to get the data at the desired location).
 
-I also elected to use a **Dictionary** to compose my adjacency matrix so that the string codes for each team could be passed into the table directly, rather than need to be converted to a numerical index first, as would be the case if I was using lists/arrays
+I also elected to use a **Dictionary** to compose my adjacency matrix so that the string codes for each team could be passed into the table directly, rather than need to be converted to a numerical index first, as would be the case if I was using lists/arrays. This makes the data more intiutive to access.
 
 ## Implementation
 My `generate_H2H_WL_table` function has 3 parts: 
